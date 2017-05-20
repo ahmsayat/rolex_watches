@@ -118,7 +118,7 @@ while the page get the panel them before opening the panel. */
     <script>
         
     var face=0;//global variable
-    var bezel=2;//global variable
+    var bezel=1;//global variable
     
     function update(i, j)
     {
@@ -175,37 +175,37 @@ while the page get the panel them before opening the panel. */
             switch (face)
             {
                 case 1:
-                    document.getElementById('preview').style.backgroundPosition = '-500px ' + 1 * -488 + 'px'; //'-500px -488px';
+                    document.getElementById('preview').style.backgroundPosition = '-500px ' + 1 * -500 + 'px'; //'-500px -488px';
                     break;
                 case 2:
-                    document.getElementById('preview').style.backgroundPosition = '-500px ' + 2 * -488 + 'px';
+                    document.getElementById('preview').style.backgroundPosition = '-500px ' + 2 * -500 + 'px';
                     break;
                 case 3:
-                    document.getElementById('preview').style.backgroundPosition = '0px ' + 3 * -495 + 'px';
+                    document.getElementById('preview').style.backgroundPosition = '0px ' + 3 * -520 + 'px';
                     break;
                 case 4:
-                    document.getElementById('preview').style.backgroundPosition = '0px ' + 4 * -499 + 'px';
+                    document.getElementById('preview').style.backgroundPosition = '0px ' + 4 * -520 + 'px';
                     break;
                 case 5:
-                    document.getElementById('preview').style.backgroundPosition = '-500px ' + 3 * -495 + 'px';
+                    document.getElementById('preview').style.backgroundPosition = '-500px ' + 3 * -520 + 'px';
                     break;
                 case 6:
-                    document.getElementById('preview').style.backgroundPosition = '0px ' + 2 * -488 + 'px';
+                    document.getElementById('preview').style.backgroundPosition = '0px ' + 2 * -510 + 'px';
                     break;
                 case 7:
                     document.getElementById('preview').style.backgroundPosition = '0px ' + 0 * -488 + 'px';
                     break;
                 case 8:
-                    document.getElementById('preview').style.backgroundPosition = '-500px ' + 4 * -499 + 'px';
+                    document.getElementById('preview').style.backgroundPosition = '-500px ' + 4 * -520 + 'px';
                     break;
                 case 9:
                     document.getElementById('preview').style.backgroundPosition = '-500px ' + 0 * -488 + 'px';
                     break;
                 case 10:
-                    document.getElementById('preview').style.backgroundPosition = '0px ' + 1 * -488 + 'px';
+                    document.getElementById('preview').style.backgroundPosition = '0px ' + 1 * -510 + 'px';
                     break;
                 case 11:
-                    document.getElementById('preview').style.backgroundPosition = '0px ' + 5 * -502 + 'px';
+                    document.getElementById('preview').style.backgroundPosition = '0px ' + 5 * -530 + 'px';
                     break;
                 default: 
                     document.getElementById('preview').style.backgroundPosition = '0px ' + 1 * -488 + 'px';
@@ -230,7 +230,7 @@ while the page get the panel them before opening the panel. */
     <div data-role="content">
         <div class="article">
             <p>
-            <img id="preview" onclick="update(0,0);" width='100%' height='auto' src="back_7.png" style='background-image: url(Classic.jpg); background-position: 0px 0px; background-size: 220% 650%;' />
+            <img id="preview" onclick="update(0,0);" width='500px' height='500px' src="back_7.png" style='background-image: url(Classic.jpg); background-position: 0px 0px; background-size: 220% 650%;' />
             </p>
    
             <h2>Fixed Gear</h2>
